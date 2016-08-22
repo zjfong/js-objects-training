@@ -2,7 +2,7 @@
 
 * Please **Fork & Clone** this repo.
 * For each problem, modify the relevant file in the `challenges`folder. We encourage you to *commit often* and push your changes to github.
-* You will [submit this problem set for review](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/submit-homework.md).
+* You should include a link your forked repository on your personal website when you complete work.
 
 ## Challenges
 1. [Letter Count](/challenges/letter-count.js)
