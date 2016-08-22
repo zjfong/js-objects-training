@@ -2,6 +2,7 @@
 
 * Please **Fork & Clone** this repo.
 * For each problem, modify the relevant file in the `challenges`folder. We encourage you to *commit often* and push your changes to github.
+* In your forked copy of this readme, add a short (3-5 sentence) reflection about your work to the top in a section titled "Training Reflection".
 * You should include a link your forked repository on your personal website when you complete work.
 
 ## Challenges
