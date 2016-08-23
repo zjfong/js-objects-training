@@ -31,3 +31,39 @@
 */
 
 // YOUR CODE HERE
+var letters={};
+var lower;
+
+var letterCount = function(string){
+  lower = string.toLowerCase();
+//iterate through string
+  for(i=0; i<lower.length; i++){
+//if letter of string is not in the object, add the letter as a key with value 1
+    if(!(letters[lower[i]])){
+      letters[lower[i]]=1;
+    } else {
+      letters[lower[i]]++;
+    }
+//if letter of string is in the object, increase the value of the key
+
+//return object letters
+
+
+
+
+
+  }
+  return letters;
+}
+
+// var test = function(e){
+//     if(letters[e]){
+
+//       letters[e]+=1;
+//     // if(!(letters.lower[i]){
+//     //   letters.lower[i]=1;
+
+
+
+letterCount('apple')
+console.log(letters)

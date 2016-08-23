@@ -43,5 +43,42 @@
     ```
 
 */
+var object = {};
+var parseQueryString = function(string){
+  var equals = string.indexOf('=');
+  var and = string.indexOf('&');
 
-// YOUR CODE HERE
+  var key = string.substring(0,equals);
+  //iterate through string
+
+
+  // for(i=0; i<string.length; i++){
+  //   if(string[i] === '='){
+  //     var remove = string.substring(0,string[i])
+
+
+  //   }
+
+  // }
+
+
+
+  //find at what indices there are equals signs
+  //find at what indices there are ampersand signs
+
+  //if there are any equals signs
+  //capture value up till '=', add as key to object
+  //capture value to end or till '&', add as value to key just created
+  //if '&', repeat previous code
+
+
+
+  //
+
+
+
+
+
+
+
+}
