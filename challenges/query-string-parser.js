@@ -43,12 +43,48 @@
     ```
 
 */
-var object = {};
-var parseQueryString = function(string){
-  var equals = string.indexOf('=');
-  var and = string.indexOf('&');
 
-  var key = string.substring(0,equals);
+
+// var parseQueryString = function(string){
+
+  function pq(string){
+    var object = {};
+    var and = string.indexOf('&');
+
+    if(and !== -1){
+      var parsedArr=string.split('&');
+      parsedArr.forEach(function(pair){
+        var parse = pair.split('=');
+        var key = parse[0];
+        var value = parse[1];
+        object[key]= value;
+      });
+    } else {
+        var parse = string.split('=');
+        var key = parse[0];
+        var value = parse[1];
+        object[key]= value;
+    }
+
+    return object;
+  }
+
+
+
+
+
+
+
+
+
+  // var equals = string.indexOf('=');
+  // var and = string.indexOf('&');
+
+
+
+  // var key = string.substring(0,equals);
+  // var value = string.substring((and + 1),
+  // object[key]
   //iterate through string
 
 
@@ -66,7 +102,7 @@ var parseQueryString = function(string){
   //find at what indices there are equals signs
   //find at what indices there are ampersand signs
 
-  //if there are any equals signs
+
   //capture value up till '=', add as key to object
   //capture value to end or till '&', add as value to key just created
   //if '&', repeat previous code
@@ -81,4 +117,4 @@ var parseQueryString = function(string){
 
 
 
-}
+//}
